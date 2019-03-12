@@ -2,7 +2,7 @@ import { Listable } from "./Listable";
 import { probablyUniqueString } from "./Toolbox";
 
 export interface AbilityScores {
-  Str: number;
+  Accuracy: number;
   Dex: number;
   Con: number;
   Cha: number;
@@ -69,7 +69,7 @@ export class StatBlock {
     InitiativeModifier: 0,
     InitiativeAdvantage: false,
     Speed: [],
-    Abilities: { Str: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10 },
+    Abilities: { Accuracy: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10 },
     DamageVulnerabilities: [],
     DamageResistances: [],
     DamageImmunities: [],
@@ -90,7 +90,7 @@ export class StatBlock {
   });
 
   public static readonly AbilityNames = [
-    "Str",
+    "Accuracy",
     "Dex",
     "Con",
     "Int",

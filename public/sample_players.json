@@ -12,7 +12,7 @@
     },
     "Speed": ["30 ft."],
     "Abilities": {
-        "Str": 16,
+        "Accuracy": 16,
         "Dex": 9,
         "Con": 15,
         "Cha": 14,
@@ -21,7 +21,7 @@
     },
     "Saves": [
       {
-        "Name": "Str",
+        "Name": "Accuracy",
         "Modifier": 5
       },
       {
@@ -60,7 +60,7 @@
     },
     "Speed": ["25 ft."],
     "Abilities": {
-        "Str": 14,
+        "Accuracy": 14,
         "Dex": 8,
         "Con": 15,
         "Cha": 12,
@@ -108,7 +108,7 @@
     },
     "Speed": ["25 ft."],
     "Abilities": {
-        "Str": 8,
+        "Accuracy": 8,
         "Dex": 16,
         "Con": 12,
         "Cha": 16,
@@ -156,7 +156,7 @@
     },
     "Speed": ["30 ft."],
     "Abilities": {
-        "Str": 10,
+        "Accuracy": 10,
         "Dex": 15,
         "Con": 14,
         "Cha": 8,

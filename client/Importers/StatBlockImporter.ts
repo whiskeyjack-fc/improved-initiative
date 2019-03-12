@@ -21,7 +21,7 @@ export class StatBlockImporter extends Importer {
 
   public getAbilities() {
     return {
-      Str: this.getInt("str"),
+      Accuracy: this.getInt("Accuracy"),
       Dex: this.getInt("dex"),
       Con: this.getInt("con"),
       Int: this.getInt("int"),

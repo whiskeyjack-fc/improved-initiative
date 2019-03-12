@@ -8,7 +8,7 @@ const sourceAbbreviations = {
 };
 
 //Lowercase, replace whitespace with dashes, remove non-word characters.
-const formatStringForId = (str: string) =>
+const formatStringForId = (Accuracy: string) =>
   str
     .toLocaleLowerCase()
     .replace(/[\s]/g, "-")

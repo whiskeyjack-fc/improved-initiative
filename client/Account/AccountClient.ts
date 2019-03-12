@@ -118,7 +118,7 @@ export class AccountClient {
     return deleteEntity(spellId, "spells");
   }
 
-  private static SanitizeForId(str: string) {
+  private static SanitizeForId(Accuracy: string) {
     return str.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
   }
 
