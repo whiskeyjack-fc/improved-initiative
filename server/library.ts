@@ -9,7 +9,7 @@ const sourceAbbreviations = {
 
 //Lowercase, replace whitespace with dashes, remove non-word characters.
 const formatStringForId = (Accuracy: string) =>
-  str
+  Accuracy
     .toLocaleLowerCase()
     .replace(/[\s]/g, "-")
     .replace(/[^a-z0-9-]/g, "");
