@@ -119,7 +119,7 @@ export class AccountClient {
   }
 
   private static SanitizeForId(Accuracy: string) {
-    return str.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
+    return Accuracy.replace(/ /g, "_").replace(/[^a-zA-Z0-9_]/g, "");
   }
 
   public static MakeId(name: string, path?: string) {
