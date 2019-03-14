@@ -13,7 +13,7 @@
     "Speed": ["30 ft."],
     "Abilities": {
         "Accuracy": 16,
-        "Dex": 9,
+        "Communication": 9,
         "Con": 15,
         "Cha": 14,
         "Int": 11,
@@ -61,7 +61,7 @@
     "Speed": ["25 ft."],
     "Abilities": {
         "Accuracy": 14,
-        "Dex": 8,
+        "Communication": 8,
         "Con": 15,
         "Cha": 12,
         "Int": 10,
@@ -109,7 +109,7 @@
     "Speed": ["25 ft."],
     "Abilities": {
         "Accuracy": 8,
-        "Dex": 16,
+        "Communication": 16,
         "Con": 12,
         "Cha": 16,
         "Int": 13,
@@ -117,7 +117,7 @@
     },
     "Saves": [
       {
-        "Name": "Dex",
+        "Name": "Communication",
         "Modifier": 5
       },
       {
@@ -157,7 +157,7 @@
     "Speed": ["30 ft."],
     "Abilities": {
         "Accuracy": 10,
-        "Dex": 15,
+        "Communication": 15,
         "Con": 14,
         "Cha": 8,
         "Int": 16,

@@ -3,7 +3,7 @@ import { probablyUniqueString } from "./Toolbox";
 
 export interface AbilityScores {
   Accuracy: number;
-  Dex: number;
+  Communication: number;
   Con: number;
   Cha: number;
   Int: number;
@@ -69,7 +69,7 @@ export class StatBlock {
     InitiativeModifier: 0,
     InitiativeAdvantage: false,
     Speed: [],
-    Abilities: { Accuracy: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10 },
+    Abilities: { Accuracy: 10, Communication: 10, Con: 10, Int: 10, Wis: 10, Cha: 10 },
     DamageVulnerabilities: [],
     DamageResistances: [],
     DamageImmunities: [],
@@ -91,7 +91,7 @@ export class StatBlock {
 
   public static readonly AbilityNames = [
     "Accuracy",
-    "Dex",
+    "Communication",
     "Con",
     "Int",
     "Wis",
