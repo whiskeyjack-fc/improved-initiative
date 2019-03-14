@@ -16,7 +16,7 @@
     "Abilities": {
       "Accuracy": 21,
       "Communication": 9,
-      "Con": 15,
+      "Constitution": 15,
       "Int": 18,
       "Wis": 15,
       "Cha": 18
@@ -27,7 +27,7 @@
     "ConditionImmunities": [],
     "Saves": [
       {
-        "Name": "Con",
+        "Name": "Constitution",
         "Modifier": 6
       },
       {

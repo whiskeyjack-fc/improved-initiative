@@ -7,7 +7,7 @@ function makev0_1StatBlock() {
     HP: { Value: 1 },
     AC: { Value: 10 },
     Speed: ["Walk 30"],
-    Abilities: { Accuracy: 10, Communication: 10, Con: 10, Cha: 10, Int: 10, Wis: 10 },
+    Abilities: { Accuracy: 10, Communication: 10, Constitution: 10, Cha: 10, Int: 10, Wis: 10 },
     DamageVulnerabilities: [],
     DamageResistances: [],
     DamageImmunities: [],

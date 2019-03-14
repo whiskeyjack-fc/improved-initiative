@@ -23,7 +23,7 @@ export class StatBlockImporter extends Importer {
     return {
       Accuracy: this.getInt("Accuracy"),
       Communication: this.getInt("Communication"),
-      Con: this.getInt("con"),
+      Constitution: this.getInt("Constitution"),
       Int: this.getInt("int"),
       Wis: this.getInt("wis"),
       Cha: this.getInt("cha")

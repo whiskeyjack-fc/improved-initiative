@@ -58,7 +58,7 @@ describe("StatBlockImporter", () => {
 
   test("Save and skills strings should populate as Names and Modifiers correctly", () => {
     const size = document.createElement("save");
-    size.innerHTML = "Con +3, Cha -1";
+    size.innerHTML = "Constitution +3, Cha -1";
     monster.appendChild(size);
 
     const type = document.createElement("skill");
@@ -69,7 +69,7 @@ describe("StatBlockImporter", () => {
     const result = new StatBlockImporter(monster).GetStatBlock();
     expect(result.Saves).toEqual([
       {
-        Name: "Con",
+        Name: "Constitution",
         Modifier: 3
       },
       {

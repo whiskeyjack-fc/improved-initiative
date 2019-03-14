@@ -104,7 +104,7 @@ export class Combatant implements Combatant {
     }
     this.InitiativeBonus =
       this.AbilityModifiers.Communication + newStatBlock.InitiativeModifier || 0;
-    this.ConcentrationBonus = this.AbilityModifiers.Con;
+    this.ConcentrationBonus = this.AbilityModifiers.Constitution;
     this.setAutoInitiativeGroup();
     if (oldStatBlock) {
       this.Encounter.Combatants.notifySubscribers();
