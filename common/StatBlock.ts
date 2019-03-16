@@ -5,7 +5,7 @@ export interface AbilityScores {
   Accuracy: number;
   Communication: number;
   Constitution: number;
-  Cha: number;
+  Dexterity: number;
   Int: number;
   Wis: number;
 }
@@ -69,7 +69,14 @@ export class StatBlock {
     InitiativeModifier: 0,
     InitiativeAdvantage: false,
     Speed: [],
-    Abilities: { Accuracy: 10, Communication: 10, Constitution: 10, Int: 10, Wis: 10, Cha: 10 },
+    Abilities: {
+      Accuracy: 10,
+      Communication: 10,
+      Constitution: 10,
+      Int: 10,
+      Wis: 10,
+      Dexterity: 10
+    },
     DamageVulnerabilities: [],
     DamageResistances: [],
     DamageImmunities: [],
@@ -95,6 +102,6 @@ export class StatBlock {
     "Constitution",
     "Int",
     "Wis",
-    "Cha"
+    "Dexterity"
   ];
 }

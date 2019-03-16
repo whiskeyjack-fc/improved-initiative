@@ -15,7 +15,7 @@
         "Accuracy": 16,
         "Communication": 9,
         "Constitution": 15,
-        "Cha": 14,
+        "Dexterity": 14,
         "Int": 11,
         "Wis": 13
     },
@@ -63,7 +63,7 @@
         "Accuracy": 14,
         "Communication": 8,
         "Constitution": 15,
-        "Cha": 12,
+        "Dexterity": 12,
         "Int": 10,
         "Wis": 16
     },
@@ -73,7 +73,7 @@
         "Modifier": 5
       },
       {
-        "Name": "Cha",
+        "Name": "Dexterity",
         "Modifier": 3
       }
     ],
@@ -111,7 +111,7 @@
         "Accuracy": 8,
         "Communication": 16,
         "Constitution": 12,
-        "Cha": 16,
+        "Dexterity": 16,
         "Int": 13,
         "Wis": 10
     },
@@ -159,7 +159,7 @@
         "Accuracy": 10,
         "Communication": 15,
         "Constitution": 14,
-        "Cha": 8,
+        "Dexterity": 8,
         "Int": 16,
         "Wis": 12
     },

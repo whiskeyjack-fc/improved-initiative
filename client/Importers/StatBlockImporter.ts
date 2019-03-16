@@ -26,7 +26,7 @@ export class StatBlockImporter extends Importer {
       Constitution: this.getInt("Constitution"),
       Int: this.getInt("int"),
       Wis: this.getInt("wis"),
-      Cha: this.getInt("cha")
+      Dexterity: this.getInt("Dexterity")
     };
   }
 
