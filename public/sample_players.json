@@ -16,7 +16,7 @@
         "Communication": 9,
         "Constitution": 15,
         "Dexterity": 14,
-        "Int": 11,
+        "Fighting": 11,
         "Wis": 13
     },
     "Saves": [
@@ -64,7 +64,7 @@
         "Communication": 8,
         "Constitution": 15,
         "Dexterity": 12,
-        "Int": 10,
+        "Fighting": 10,
         "Wis": 16
     },
     "Saves": [
@@ -112,7 +112,7 @@
         "Communication": 16,
         "Constitution": 12,
         "Dexterity": 16,
-        "Int": 13,
+        "Fighting": 13,
         "Wis": 10
     },
     "Saves": [
@@ -121,7 +121,7 @@
         "Modifier": 5
       },
       {
-        "Name": "Int",
+        "Name": "Fighting",
         "Modifier": 3
       }
     ],
@@ -160,12 +160,12 @@
         "Communication": 15,
         "Constitution": 14,
         "Dexterity": 8,
-        "Int": 16,
+        "Fighting": 16,
         "Wis": 12
     },
     "Saves": [
       {
-        "Name": "Int",
+        "Name": "Fighting",
         "Modifier": 5
       },
       {

@@ -6,7 +6,7 @@ export interface AbilityScores {
   Communication: number;
   Constitution: number;
   Dexterity: number;
-  Int: number;
+  Fighting: number;
   Wis: number;
 }
 
@@ -73,7 +73,7 @@ export class StatBlock {
       Accuracy: 10,
       Communication: 10,
       Constitution: 10,
-      Int: 10,
+      Fighting: 10,
       Wis: 10,
       Dexterity: 10
     },
@@ -100,7 +100,7 @@ export class StatBlock {
     "Accuracy",
     "Communication",
     "Constitution",
-    "Int",
+    "Fighting",
     "Wis",
     "Dexterity"
   ];
