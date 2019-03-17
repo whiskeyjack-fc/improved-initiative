@@ -7,6 +7,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('livereloadx');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -60,11 +61,15 @@ module.exports = function (grunt) {
           { expand: true, cwd: 'node_modules/@fortawesome/fontawesome-free/webfonts/', src: ['**'], dest: 'public/webfonts/' }
         ]
       }
+    },
+    livereloadx: {
+      dir: 'public',
+      verbose: true
     }
   });
 
   grunt.registerTask('build_dev', ['webpack:dev', 'ts:server', 'less', 'concat:js_dependencies']);
   grunt.registerTask('build_min', ['webpack:prod', 'ts:server', 'less', 'concat:js_dependencies_min']);
-  grunt.registerTask('default', ['build_dev', 'watch']);
+  grunt.registerTask('default', ['build_dev', 'livereloadx', 'watch']);
   grunt.registerTask('postinstall', ['copy', 'build_min']);
 };

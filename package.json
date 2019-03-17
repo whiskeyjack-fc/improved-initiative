@@ -53,6 +53,7 @@
     "jest-localstorage-mock": "^2.2.0",
     "less": "^3.0.4",
     "lint-staged": "^8.1.0",
+    "livereloadx": "^0.3.10",
     "markdown-loader-jest": "^0.1.1",
     "nodemon": "^1.18.10",
     "prettier": "^1.15.3",
