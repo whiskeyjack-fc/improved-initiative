@@ -98,19 +98,18 @@
   }
 
   .Abilities {
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: @medium-spacer;
 
     div {
       flex-direction: row;
       justify-content: flex-start;
-      flex-wrap: wrap;
-      width: 100%;
 
       .stat-label {
         display: inline-block;
-        width: 100%;
-        text-align: center;
+        width: 50%;
+        text-align: left;
       }
 
       .modifier,
