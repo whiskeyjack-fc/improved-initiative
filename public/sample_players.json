@@ -17,7 +17,7 @@
         "Constitution": 15,
         "Dexterity": 14,
         "Fighting": 11,
-        "Wis": 13
+        "Intelligence": 13
     },
     "Saves": [
       {
@@ -65,11 +65,11 @@
         "Constitution": 15,
         "Dexterity": 12,
         "Fighting": 10,
-        "Wis": 16
+        "Intelligence": 16
     },
     "Saves": [
       {
-        "Name": "Wis",
+        "Name": "Intelligence",
         "Modifier": 5
       },
       {
@@ -113,7 +113,7 @@
         "Constitution": 12,
         "Dexterity": 16,
         "Fighting": 13,
-        "Wis": 10
+        "Intelligence": 10
     },
     "Saves": [
       {
@@ -161,7 +161,7 @@
         "Constitution": 14,
         "Dexterity": 8,
         "Fighting": 16,
-        "Wis": 12
+        "Intelligence": 12
     },
     "Saves": [
       {
@@ -169,7 +169,7 @@
         "Modifier": 5
       },
       {
-        "Name": "Wis",
+        "Name": "Intelligence",
         "Modifier": 3
       }
     ],

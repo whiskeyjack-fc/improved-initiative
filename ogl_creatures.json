@@ -18,7 +18,7 @@
       "Communication": 9,
       "Constitution": 15,
       "Fighting": 18,
-      "Wis": 15,
+      "Intelligence": 15,
       "Dexterity": 18
     },
     "DamageVulnerabilities": [],
@@ -35,7 +35,7 @@
         "Modifier": 8
       },
       {
-        "Name": "Wis",
+        "Name": "Intelligence",
         "Modifier": 6
       }
     ],

@@ -13,7 +13,7 @@ function makev0_1StatBlock() {
       Constitution: 10,
       Dexterity: 10,
       Fighting: 10,
-      Wis: 10
+      Intelligence: 10
     },
     DamageVulnerabilities: [],
     DamageResistances: [],

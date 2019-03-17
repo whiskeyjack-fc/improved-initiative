@@ -7,7 +7,7 @@ export interface AbilityScores {
   Constitution: number;
   Dexterity: number;
   Fighting: number;
-  Wis: number;
+  Intelligence: number;
 }
 
 export interface NameAndModifier {
@@ -74,7 +74,7 @@ export class StatBlock {
       Communication: 10,
       Constitution: 10,
       Fighting: 10,
-      Wis: 10,
+      Intelligence: 10,
       Dexterity: 10
     },
     DamageVulnerabilities: [],
@@ -100,8 +100,8 @@ export class StatBlock {
     "Accuracy",
     "Communication",
     "Constitution",
+    "Dexterity",
     "Fighting",
-    "Wis",
-    "Dexterity"
+    "Intelligence"
   ];
 }
